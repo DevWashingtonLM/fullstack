@@ -1,6 +1,6 @@
 const Input= ({
     label, value, updateValue
-}: inputPrps)
+}: inputProps)
 
 interface CreateModalProps {
 
