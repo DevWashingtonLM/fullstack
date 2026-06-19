@@ -1,6 +1,8 @@
 import './App.css'
 import { useFoodData } from "./hooks/useFoodData.ts";
 import { Card } from "./components/card/card.tsx";
+import { FormFood } from "./components/FormFood";
+
 
 function App() {
 
@@ -21,10 +23,13 @@ function App() {
                 />
             ))}
           </div>
-
+            <div className='button'>
+              <FormFood/>
+            </div>
         </div>
       </>
   )
 }
+
 
 export default App
